@@ -39,12 +39,10 @@ const SmurfState = props => {
       <button onClick={handleGetSmurfs}>Press Here for Smurfs</button>
       {props.smurf.map(event => {
         return (
-          <div>
             <p>
               Hi my name is {event.name}. I am {event.age} years old and I stand{" "}
               {event.height} tall. Nice to meet you!!
-            </p>
-          </div>
+            </p>          
         );
       })}
       <input
