@@ -1,3 +1,8 @@
+body {
+  background: blue;
+  color: white;
+}
+
 .App {
   text-align: center;
 }
@@ -25,4 +30,19 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+button {
+  border: white;
+  border-radius: 5px;
+  background: #033563;
+  color: white;
+}
+input {
+  background: white;
+  color: blue;
+  margin: 10px;
+}
+::placeholder {
+  color: blue;
 }
